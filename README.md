@@ -108,5 +108,22 @@ flowchart TD
 
     EDGE--"Makes API calls to
     [REST/HTTP]"-->ORDER
+
+    classDef person fill:lightgray,color:black
+    class Customer person
+    class Employee person
+
+    classDef focusSystem fill:pink,stroke:pink,color:black
+    class CAT focusSystem
+    class ORDER focusSystem
+    class DISP focusSystem
+    class CONF focusSystem
+    class EDGE focusSystem
+
+    classDef frontend fill:yellow,stroke:#0b4884,color:black
+    class SPA frontend
+
+    classDef broker fill:lightgreen,color:red
+    class BROKER broker
 ```
 
