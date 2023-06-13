@@ -113,17 +113,20 @@ flowchart TD
     class Customer person
     class Employee person
 
-    classDef focusSystem fill:pink,stroke:pink,color:black
+    classDef focusSystem fill:lightgreen,stroke:black,color:black
     class CAT focusSystem
     class ORDER focusSystem
     class DISP focusSystem
     class CONF focusSystem
     class EDGE focusSystem
 
-    classDef frontend fill:yellow,stroke:#0b4884,color:black
+    classDef frontend fill:beige,color:brown
     class SPA frontend
 
-    classDef broker fill:lightgreen,color:red
+    classDef broker fill:white,stroke:green,color:green
     class BROKER broker
+
+    classDef redis stroke:brown,fill:white,color:brown
+    class REDIS redis
 ```
 
